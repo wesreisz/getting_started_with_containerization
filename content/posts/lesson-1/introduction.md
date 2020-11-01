@@ -59,8 +59,9 @@ Make sure docker is installed and the service is running. On your Ubuntu VDI, do
 ```bash
 sudo service docker start
 ```
+This takes a minute or two.
 
-At this point, on your VDI you can only run docker as root. Let's fix that my running this command.
+At this point, you should be able to run `docker info` and not see an error. If you still see an error, run `groups` and validate that your user is in the docker ground. If it's not, run this command. If this isn't your issue, let the instructor know.
 ```bash
 sudo usermod -a -G docker $USER
 ```
@@ -86,32 +87,17 @@ To generate this message, Docker took the following steps:
 If so, you're ready to start! If this doesn't work, please install Docker and configure it for your system:
 https://docs.docker.com/get-docker
 
-Before we logoff, let's fix a dns issue with Amazon VDI and Docker. You don't need to do this if you're running locally and not having a dns issue.
-
-```bash
-sudo su -
-echo "{\"dns\": [\"8.8.8.8\"]}" >>/etc/docker/daemon.json
-sudo service docker restart
-```
-
 
 ### Networking with Docker in Amazon workspaces
 There is sometimes an issue with docker resolving dns on these VDI. The quickest solution is to add 
 `-dns 8.8.8.8 ` to your docker command.
 
-By setting /etc/docker/daemon.json with,
-
+We can also fix it by adding a daemon.json with a different dns. 
 ```bash
-{
-  "dns": ["8.8.8.8"]
-}
-```
-and then restarting docker we won't have to keep doing this.
-
-```
+sudo su -
+echo "{\"dns\": [\"8.8.8.8\"]}" >>/etc/docker/daemon.json
 sudo service docker restart
 ```
-
 
 ### Potential Issues
 **Amazon Workspace: Unable to run docker without using root**
