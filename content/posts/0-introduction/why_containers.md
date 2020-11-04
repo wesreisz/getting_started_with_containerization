@@ -44,5 +44,5 @@ docker-compose up
 
 ![Docker Compose](/getting_started_with_containerization/images/lesson1/1-1-example.png "Docker Compose")
 
-5. When you are satisfied that things are working, tou can switch back to the terminal window and enter `ctrl-c` to end
+5. When you are satisfied that things are working, you can switch back to the terminal window and enter `ctrl-c` to end
    the application
