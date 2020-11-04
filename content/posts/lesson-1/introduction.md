@@ -87,6 +87,12 @@ To generate this message, Docker took the following steps:
 If so, you're ready to start! If this doesn't work, please install Docker and configure it for your system:
 https://docs.docker.com/get-docker
 
+### Attribution
+
+Much of this workshop is heavily influenced by the awesome container and kubernetes workshops from Jerome Petazzoni. While I take a different approach, the material is non-the-less heavily influenced by his container.training material. [He and his contributors](https://github.com/jpetazzo/container.training/graphs/contributors) maintain an [Apache 2 licensed Open Source](https://github.com/jpetazzo/container.training/blob/master/LICENSE) project of his [training material](https://github.com/jpetazzo/container.training/) on github. 
+
+Many additional sources influenced the shape of this project. Those items will be identified throughout.
+
 
 ### Networking with Docker in Amazon workspaces
 There is sometimes an issue with docker resolving dns on these VDI. The quickest solution is to add 
