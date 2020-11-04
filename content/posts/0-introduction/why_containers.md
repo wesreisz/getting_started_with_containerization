@@ -40,7 +40,9 @@ cd azure-voting-app-redis
 docker-compose up
 ```
 
-1. Open a browser and navigate to http://localhost:8080. You should see a pgae similar to below:
+4. Open a browser and navigate to http://localhost:8080. You should see a pgae similar to below:
 
 ![Docker Compose](/getting_started_with_containerization/images/lesson1/1-1-example.png "Docker Compose")
 
+5. When you are satisfied that things are working, tou can switch back to the terminal window and enter `ctrl-c` to end
+   the application
