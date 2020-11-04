@@ -35,7 +35,12 @@ git clone https://github.com/wesreisz/azure-voting-app-redis.git
 ```
 3. Deploy a python app that talks to a redis instance.
 ```bash
+cd azure-voting-app-redis
+
 docker-compose up
 ```
+
+1. Open a browser and navigate to http://localhost:8080. You should see a pgae similar to below:
+
 ![Docker Compose](/getting_started_with_containerization/images/lesson1/1-1-example.png "Docker Compose")
 
