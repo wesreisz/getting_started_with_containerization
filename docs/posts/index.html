@@ -43,43 +43,43 @@
   <ul>
     
     <li class="">
-      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-1/introduction/">Course Introduction</a>
+      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/0-introduction/introduction/">Course Introduction</a>
     </li>
     
     <li class="">
-      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-1/why_containers/">Why Containers</a>
+      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/0-introduction/why_containers/">Why Containers</a>
     </li>
     
     <li class="">
-      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-2/chroot/">chroot, namespace, &amp; cgroups</a>
+      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/1-chroot/chroot/">chroot, namespace, &amp; cgroups</a>
     </li>
     
     <li class="">
-      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-3/docker/">Docker</a>
+      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/2-docker/docker/">Docker</a>
     </li>
     
     <li class="">
-      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-4/docker_file/">Dockerfile</a>
+      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/3-dockerfile/docker_file/">Dockerfile</a>
     </li>
     
     <li class="">
-      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-5/mounts-volumes/">Mounts &amp; Volumes</a>
+      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/4-build-an-app/mounts-volumes/">Mounts &amp; Volumes</a>
     </li>
     
     <li class="">
-      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-5/build-an-app/">Build an App</a>
+      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/4-build-an-app/build-an-app/">Build an App</a>
     </li>
     
     <li class="">
-      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-6/networking/">Networking</a>
+      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/5-network_and_wrap/networking/">Networking</a>
     </li>
     
     <li class="">
-      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-6/docker-compose/">Docker Compose</a>
+      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/5-network_and_wrap/docker-compose/">Docker Compose</a>
     </li>
     
     <li class="">
-      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-6/key_takeaways/"> Key Takeaways &amp; Wrapup</a>
+      <a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/5-network_and_wrap/key_takeaways/"> Key Takeaways &amp; Wrapup</a>
     </li>
     
   </ul>
@@ -93,120 +93,160 @@
 <h2>Agenda</h2>
 
 <div class="summary mb-2">
-  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-1/introduction/">Lesson 1: Course Introduction and Logistics</a>
+  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/0-introduction/introduction/">Lesson 0: Course Introduction and Logistics</a></h2>
+  <p>
     
-  
-  </h2>
-  <p>Containers are the new unit of deployment. The reason is simple: containers are a very powerful tool that can streamline development and ops, save companies money by focusing on deploying a packaged unit, and reduce the friction in delivering software. However, the flip side is they’re a new paradigm to understand, many things are abstracted away, and they require apps to be built with a specific architecture to take full advantage of their features.
+      <em>Time Estimate: 10 Minutes</em>
+    
+  </p>
+  <p>
+    Containers are the new unit of deployment. The reason is simple: containers are a very powerful tool that can streamline development and ops, save companies money by focusing on deploying a packaged unit, and reduce the friction in delivering software. However, the flip side is they’re a new paradigm to understand, many things are abstracted away, and they require apps to be built with a specific architecture to take full advantage of their features.
+  </p>
 </p>
   
 </div>
 
 
 <div class="summary mb-2">
-  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-1/why_containers/">Lesson 1.1: Why Containers</a>
+  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/0-introduction/why_containers/">Lesson 1: Why Containers</a></h2>
+  <p>
     
-  
-  </h2>
-  <p>A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+      <em>Time Estimate: 20 Minutes</em>
+    
+  </p>
+  <p>
+    A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 Container images become containers at runtime and in the case of Docker containers - images become containers when they run on Docker Engine.
+  </p>
 </p>
   
 </div>
 
 
 <div class="summary mb-2">
-  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-2/chroot/">Lesson 2: chroot, namespaces, cgroups</a>
+  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/1-chroot/chroot/">Lesson 2: chroot, namespaces, cgroups</a></h2>
+  <p>
     
-  
-  </h2>
-  <p>There&rsquo;s no magic here. Getting back to first principles. A container is: chroot, namespaces, &amp; cgroups. With the exception of cgroups, these are technologies that have been around for a longtime.
+      <em>Time Estimate: 30 Minutes</em>
+    
+  </p>
+  <p>
+    There&rsquo;s no magic here. Getting back to first principles. A container is: chroot, namespaces, &amp; cgroups. With the exception of cgroups, these are technologies that have been around for a longtime.
  chroot: A chroot is an operation that changes the apparent root directory for the current running process and their children. A program that is run in such a modified environment cannot access files and commands outside that environmental directory tree namespaces: Namespaces are a feature of the Linux kernel that partitions kernel resources such that one set of processes sees one set of resources while another set of processes sees a different set of resources.
+  </p>
 </p>
   
 </div>
 
 
 <div class="summary mb-2">
-  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-3/docker/">Lesson 3: Docker</a>
+  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/2-docker/docker/">Lesson 3: Docker</a></h2>
+  <p>
     
-  
-  </h2>
-  <p>Docker is a software platform for building applications based on containers. It is the defacto standard for doing containerization; however, it is not the only product out there (LXC, Hyper-V containers, podman, containerd, RUNC are all alternatives). However, we will use Docker in this course.
+      <em>Time Estimate: 20 Minutes</em>
+    
+  </p>
+  <p>
+    Docker is a software platform for building applications based on containers. It is the defacto standard for doing containerization; however, it is not the only product out there (LXC, Hyper-V containers, podman, containerd, RUNC are all alternatives). However, we will use Docker in this course.
 There&rsquo;s alot of different command here. I&rsquo;ll explore some of the ones you&rsquo;ll use the most command and talk through them. We&rsquo;ll also talk about how do get more help and find additional containers.
+  </p>
 </p>
   
 </div>
 
 
 <div class="summary mb-2">
-  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-4/docker_file/">Lesson 4: Dockerfile</a>
+  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/3-dockerfile/docker_file/">Lesson 4: Dockerfile</a></h2>
+  <p>
     
-  
-  </h2>
-  <p>Docker can build images automatically by reading the instructions from a Dockerfile. A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image. Using docker build users can create an automated build that executes several command-line instructions in succession. Example Dockerfile
+      <em>Time Estimate: 20 Minutes</em>
+    
+  </p>
+  <p>
+    Docker can build images automatically by reading the instructions from a Dockerfile. A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image. Using docker build users can create an automated build that executes several command-line instructions in succession. Example Dockerfile
 Learning Objectives  Understand how the Dockerfile works Build containers Use containers we built.  Here is the format of the Dockerfile:
+  </p>
 </p>
   
 </div>
 
 
 <div class="summary mb-2">
-  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-5/mounts-volumes/">Lesson 5: Mounts &amp; Volumes</a>
+  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/4-build-an-app/mounts-volumes/">Lesson 5: Mounts &amp; Volumes</a></h2>
+  <p>
     
-  
-  </h2>
-  <p>Docker containers do not store persistent data. Any data written to a container&rsquo;s writable layer will no longer be available once the container stops running. Also, getting data written to a container back out of it for another process can be difficult. To solve the issue of persisting data from a container, Docker has several options.
+      <em>Time Estimate: 20 Minutes</em>
+    
+  </p>
+  <p>
+    Docker containers do not store persistent data. Any data written to a container&rsquo;s writable layer will no longer be available once the container stops running. Also, getting data written to a container back out of it for another process can be difficult. To solve the issue of persisting data from a container, Docker has several options.
   Volumes: Volumes are the preferred way to store persistent data Docker containers create or use.
+  </p>
 </p>
   
 </div>
 
 
 <div class="summary mb-2">
-  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-5/build-an-app/">Lesson 5.1: Build an App</a>
+  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/4-build-an-app/build-an-app/">Lesson 6: Build an App</a></h2>
+  <p>
     
-  
-  </h2>
-  <p>At this point, we&rsquo;ve put all the pieces together. Now let&rsquo;s keep going and build an app from the ground up.
+      <em>Time Estimate: 30 Minutes</em>
+    
+  </p>
+  <p>
+    At this point, we&rsquo;ve put all the pieces together. Now let&rsquo;s keep going and build an app from the ground up.
 We&rsquo;re goign to install node on our VM first so we can build locally and then move to a container. IF you&rsquo;re working on your local machine, you will need to have node/npm.
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash . ~/.nvm/nvm.sh nvm install node node --version nvm install 12.14.1 node --version mkdir node_project cd node_project npm init -y Create a new file package.
+  </p>
 </p>
   
 </div>
 
 
 <div class="summary mb-2">
-  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-6/networking/">Lesson 6.1: Networking</a>
+  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/5-network_and_wrap/networking/">Lesson 7: Networking</a></h2>
+  <p>
     
-  
-  </h2>
-  <p>Docker includes support for networking containers through the use of network drivers. By default, Docker provides two network drivers for you, the bridge and the overlay drivers. You can also write a network driver plugin so that you can create your own drivers but that is an advanced task.
+      <em>Time Estimate: 20 Minutes</em>
+    
+  </p>
+  <p>
+    Docker includes support for networking containers through the use of network drivers. By default, Docker provides two network drivers for you, the bridge and the overlay drivers. You can also write a network driver plugin so that you can create your own drivers but that is an advanced task.
 Every installation of the Docker Engine automatically includes three default networks. You can list them:
 $ docker network ls NETWORK ID NAME DRIVER 18a2866682b8 none null c288470c46f6 host host 7b369448dccb bridge bridge The network named bridge is a special network.
+  </p>
 </p>
   
 </div>
 
 
 <div class="summary mb-2">
-  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-6/docker-compose/">Lesson 6: Multi-stage &amp; Docker Compose</a>
+  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/5-network_and_wrap/docker-compose/">Lesson 8: Multi-stage &amp; Docker Compose</a></h2>
+  <p>
     
-  
-  </h2>
-  <p>Multistage Build With multi-stage builds, you use multiple FROM statements in your Dockerfile. Each FROM instruction can use a different base, and each of them begins a new stage of the build. You can selectively copy artifacts from one stage to another, leaving behind everything you don’t want in the final image. To show how this works, let’s adapt the Dockerfile from the previous section to use multi-stage builds.
+      <em>Time Estimate: 20 Minutes</em>
+    
+  </p>
+  <p>
+    Multistage Build With multi-stage builds, you use multiple FROM statements in your Dockerfile. Each FROM instruction can use a different base, and each of them begins a new stage of the build. You can selectively copy artifacts from one stage to another, leaving behind everything you don’t want in the final image. To show how this works, let’s adapt the Dockerfile from the previous section to use multi-stage builds.
 It is used for great clarity, security, and image size.
+  </p>
 </p>
   
 </div>
 
 
 <div class="summary mb-2">
-  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/lesson-6/key_takeaways/">Key Takeaways &amp; Wrapup</a>
+  <h2 class="title-summary"><a href="http://www.wesleyreisz.com/getting_started_with_containerization/posts/5-network_and_wrap/key_takeaways/">Key Takeaways &amp; Wrapup</a></h2>
+  <p>
     
-  
-  </h2>
-  <p>Containers are the new unit of deployment. The reason is simple: containers are a very powerful tool that can streamline development and ops, save companies money by focusing on deploying a packaged unit, and reduce the friction in delivering software. However, the flip side is they’re a new paradigm to understand, many things are abstracted away, and they require apps to be built with a specific architecture to take full advantage of their features.
+      <em>Time Estimate: 10 Minutes</em>
+    
+  </p>
+  <p>
+    Containers are the new unit of deployment. The reason is simple: containers are a very powerful tool that can streamline development and ops, save companies money by focusing on deploying a packaged unit, and reduce the friction in delivering software. However, the flip side is they’re a new paradigm to understand, many things are abstracted away, and they require apps to be built with a specific architecture to take full advantage of their features.
+  </p>
 </p>
   
 </div>

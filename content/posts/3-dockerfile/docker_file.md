@@ -2,6 +2,7 @@
 title: "Dockerfile"
 full_title: "Lesson 4: Dockerfile"
 weight: 4
+time_estimate: "20 Minutes"
 date: 2020-10-23T1:00:00-00:96
 draft: true
 ---

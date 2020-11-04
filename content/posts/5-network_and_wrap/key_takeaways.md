@@ -2,6 +2,7 @@
 title: " Key Takeaways & Wrapup"
 full_title: "Key Takeaways & Wrapup"
 weight: 9
+time_estimate: "10 Minutes"
 date: 2020-10-23T1:00:00-00:95
 draft: true
 ---

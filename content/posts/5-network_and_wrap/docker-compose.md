@@ -1,7 +1,8 @@
 ---
 title: "Docker Compose"
-full_title: "Lesson 6: Multi-stage & Docker Compose"
+full_title: "Lesson 8: Multi-stage & Docker Compose"
 weight: 8
+time_estimate: "20 Minutes"
 date: 2020-10-23T1:00:00-00:95
 draft: true
 ---

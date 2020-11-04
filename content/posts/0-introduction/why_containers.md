@@ -1,7 +1,8 @@
 ---
 title: "Why Containers"
-full_title: "Lesson 1.1: Why Containers"
-weight: 2
+full_title: "Lesson 1: Why Containers"
+weight: 1
+time_estimate: "20 Minutes"
 date: 2020-10-23T1:00:00-00:98
 draft: true
 ---

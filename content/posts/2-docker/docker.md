@@ -2,6 +2,7 @@
 title: "Docker"
 full_title: "Lesson 3: Docker"
 weight: 3
+time_estimate: "20 Minutes"
 date: 2020-10-23T1:00:00-00:96
 draft: true
 ---

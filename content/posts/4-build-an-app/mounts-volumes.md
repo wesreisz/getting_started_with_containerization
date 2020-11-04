@@ -3,6 +3,7 @@ title: "Mounts & Volumes"
 full_title: "Lesson 5: Mounts & Volumes"
 weight: 5
 date: 2020-10-23T1:00:00-00:96
+time_estimate: "20 Minutes"
 draft: true
 ---
  Docker containers do not store persistent data. Any data written to a container's writable layer will no longer be available once the container stops running. Also, getting data written to a container back out of it for another process can be difficult. To solve the issue of persisting data from a container, Docker has several options.

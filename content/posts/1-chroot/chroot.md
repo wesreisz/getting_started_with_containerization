@@ -2,6 +2,7 @@
 title: "chroot, namespace, & cgroups"
 full_title: "Lesson 2: chroot, namespaces, cgroups"
 weight: 2
+time_estimate: "30 Minutes"
 date: 2020-10-23T1:00:00-00:97
 draft: true
 ---

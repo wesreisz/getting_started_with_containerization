@@ -1,7 +1,8 @@
 ---
 title: "Course Introduction"
-full_title: "Lesson 1: Course Introduction and Logistics"
+full_title: "Lesson 0: Course Introduction and Logistics"
 weight: 1
+time_estimate: "10 Minutes"
 date: 2020-10-23T1:00:00-00:98
 draft: true
 ---
@@ -89,7 +90,7 @@ https://docs.docker.com/get-docker
 
 ### Attribution
 
-Much of this workshop is heavily influenced by the awesome container and kubernetes workshops from Jerome Petazzoni. While I take a different approach, the material is non-the-less heavily influenced by his container.training material. [He and his contributors](https://github.com/jpetazzo/container.training/graphs/contributors) maintain an [Apache 2 licensed Open Source](https://github.com/jpetazzo/container.training/blob/master/LICENSE) project of his [training material](https://github.com/jpetazzo/container.training/) on github. 
+Much of this workshop is heavily influenced by the awesome container and kubernetes workshops from Jerome Petazzoni. While I take a different approach, the material is none-the-less heavily influenced by his container.training material. [He and his contributors](https://github.com/jpetazzo/container.training/graphs/contributors) maintain an [Apache 2 licensed Open Source](https://github.com/jpetazzo/container.training/blob/master/LICENSE) project of his [training material](https://github.com/jpetazzo/container.training/) on github. 
 
 Many additional sources influenced the shape of this project. Those items will be identified throughout.
 

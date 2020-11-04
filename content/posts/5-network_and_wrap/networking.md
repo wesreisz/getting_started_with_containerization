@@ -1,7 +1,8 @@
 ---
 title: "Networking"
-full_title: "Lesson 6.1: Networking"
+full_title: "Lesson 7: Networking"
 weight: 7
+time_estimate: "20 Minutes"
 date: 2020-10-23T1:00:00-00:96
 draft: true
 ---

@@ -1,7 +1,8 @@
 ---
 title: "Build an App"
-full_title: "Lesson 5.1: Build an App"
+full_title: "Lesson 6: Build an App"
 weight: 6
+time_estimate: "30 Minutes"
 date: 2020-10-23T1:00:00-00:96
 draft: true
 ---
