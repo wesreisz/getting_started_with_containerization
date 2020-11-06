@@ -118,12 +118,12 @@ docker run -it --name my-u ubuntu:14.04
 </code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run --detach -it jturpin/hollywood
 docker ps
 docker ps -a
-docker run --dit jturpin/hollywood
+docker run -dit jturpin/hollywood
 </code></pre></div><p>Understand what commands are available</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker help
 docker image help
 docker container help
-</code></pre></div><p>Docker run is for creating containers. It is important to differentiate it from exec , which is used to interact with containers that are already running. Attach let&rsquo;s you connect to the same terminal instance.</p>
+</code></pre></div><p>Docker <code>run</code> is for creating containers. It is important to differentiate it from exec , which is used to interact with containers that are already running. Docker <code>attach</code> lets you connect to the same terminal instance.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run -dit --name my-nginx nginx
 docker exec -it my-nginx bash
 docker exec -it my-nginx ps aux
