@@ -46,7 +46,7 @@ docker run -it --name my-u ubuntu:14.04
 docker run --detach -it jturpin/hollywood
 docker ps
 docker ps -a
-docker run --dit jturpin/hollywood
+docker run -dit jturpin/hollywood
 ```
 
 Understand what commands are available
@@ -56,7 +56,7 @@ docker image help
 docker container help
 ```
 
-Docker run is for creating containers. It is important to differentiate it from exec , which is used to interact with containers that are already running. Attach let's you connect to the same terminal instance.
+Docker `run` is for creating containers. It is important to differentiate it from exec , which is used to interact with containers that are already running. Docker `attach` lets you connect to the same terminal instance.
 ```bash
 docker run -dit --name my-nginx nginx
 docker exec -it my-nginx bash
