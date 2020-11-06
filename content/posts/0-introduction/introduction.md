@@ -2,7 +2,7 @@
 title: "Course Introduction"
 full_title: "Lesson 0: Course Introduction and Logistics"
 weight: 1
-time_estimate: "10 Minutes"
+time_estimate: "30 Minutes"
 date: 2020-10-23T1:00:00-00:98
 draft: true
 ---
@@ -13,6 +13,10 @@ Containers are the new unit of deployment. The reason is simple: containers are 
 1. Learn what containers are and how they work
 1. Understand the main use cases of containers
 1. Understand how to containerize an app
+
+### Start here
+1. Please sign in to get your VM: http://bit.ly/qconplus
+2. Please start downloading/installing: https://clients.amazonworkspaces.com
 
 ### Audience
 Anyone wanting to learn about containers. Will look at things through a developers lens.
@@ -87,6 +91,9 @@ To generate this message, Docker took the following steps:
 ```
 If so, you're ready to start! If this doesn't work, please install Docker and configure it for your system:
 https://docs.docker.com/get-docker
+
+### Docker Info
+https://docs.docker.com/get-started/overview/
 
 ### Attribution
 

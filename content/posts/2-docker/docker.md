@@ -43,7 +43,7 @@ docker run -it --name my-u ubuntu:14.04
 ```
 
 ```bash
-docker run -detach -it jturpin/hollywood
+docker run --detach -it jturpin/hollywood
 docker ps
 docker ps -a
 docker run --dit jturpin/hollywood
@@ -70,10 +70,12 @@ Start/Stop/Restarting a container
 ```bash
 docker container ls
 docker container ls -a
-docker start ?????????????????
-docker stop ?????????????????
-docker restart ?????????????????
 docker ps
+docker stop beautiful_cerf
+docker start 2313104e5b71
+docker restart 2313104e5b71
+docker kill 2313104e5b71
+docker container rm 2313104e5b71
 ```
 
 

@@ -21,7 +21,7 @@ Secure: Applications are safer in containers and Docker provides the strongest d
 * *Understand* the problem that containers solve.
 * *Understand* the relationship between the shipping industry and build software containers.
 * *Understand* the basic clone / run workflow for running a project. 
-* *Able to run* run a docker/docker compose project.
+* *Able to run* a docker/docker compose project.
 
 
 [![Introduction to Containers](/getting_started_with_containerization/images/lesson1/why-containers.jpg)](https://docs.google.com/presentation/d/16xibcNq2qj8n5_unedSWt1PXymiocNkeHLcWRfIuhbU/edit#slide=id.p)

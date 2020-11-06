@@ -39,9 +39,11 @@ Let's go through a more complete example and build a node server.
 
 Here's the Dockerfile.
 ```Dockerfile
+cat <<EOF > Dockerfile
 FROM node:12-stretch
 COPY index.js index.js
 CMD ["node", "index.js"]
+EOF
 ```
 
 Let's create index.js
@@ -74,6 +76,8 @@ docker run --publish 3000:3000 hello-node
 **NOTE:** 
 
 cntrl-c doesn't work... because we're sending cntrl-c to docker and it's not being passed to node. There is a more correct way to capture the signal; however, if you use `--init` for the time being when you run it. It will exit normally. To close the process, open another terminal windows and find the process with `ps aux` and kill that pid.
+
+More notes on this: https://yvonnickfrin.dev/shutdown-correctly-nodejs-apps
 
 **Container Naming**
 
