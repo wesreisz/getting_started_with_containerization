@@ -36,13 +36,13 @@ Using Compose is basically a three-step process:
 
 1. Define your app’s environment with a Dockerfile so it can be reproduced anywhere.
 
-1. Define the services that make up your app in docker-compose.yml so they can be run together in an isolated environment.
+1. Define the services that make up your app in docker-compose.yaml so they can be run together in an isolated environment.
 
 1. Run docker-compose up and Compose starts and runs your entire app.
 
-A docker-compose.yml looks like this:
+A docker-compose.yaml looks like this:
 
-```yml
+```yaml
 version: '3'
 services:
   azure-vote-back:
